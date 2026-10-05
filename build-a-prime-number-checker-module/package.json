@@ -1,0 +1,13 @@
+{
+  "name": "build-a-prime-number-checker-module",
+  "version": "1.0.0",
+  "description": "A simple prime number checker module",
+  "keywords": ["prime", "number", "checker"],
+  "license": "ISC",
+  "author": "MwitiWesa-coke",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  }
+}
