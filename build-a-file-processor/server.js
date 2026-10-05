@@ -6,6 +6,8 @@ const os = require("os");
 const { convertProcessSignalToExitCode } = require("util");
 const path = require("path");
 
+
+
 const readable = fs.createReadStream("assets/poem.txt");
 const writable = fs.createWriteStream("assets/stream-output.txt");
 readable.pipe(writable);
@@ -69,7 +71,7 @@ const buf = Buffer.from("Hello, Node!");
 const buf2 = Buffer.alloc(8, 0xff);
 const decoded = Buffer.from("ZnJlZUNvZGVDYW1w", "base64").toString("utf8");
 
-
+console.log(process.argv);
 console.log(hash);
 console.log(decoded);
 console.log(buf2);
